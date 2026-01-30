@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import pycountry 
 
 # CONFIGURACAO DA PAGINA
 st.set_page_config(
@@ -136,4 +135,5 @@ with col_graf4: # grafico em formado de mapa de salario media por data scientist
 
 # tabela de dados detalhado
 ''' st.subheader("Dados Detalhados")
+
 st.dataframe(df_filtrado) '''
