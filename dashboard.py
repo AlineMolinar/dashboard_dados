@@ -133,7 +133,3 @@ with col_graf4: # grafico em formado de mapa de salario media por data scientist
     else:
         st.warning("Nenhum dado para exibir no gráfico de países.")
 
-# tabela de dados detalhado
-''' st.subheader("Dados Detalhados")
-
-st.dataframe(df_filtrado) '''
